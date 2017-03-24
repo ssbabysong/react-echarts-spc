@@ -1,0 +1,149 @@
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 15px 0;
+}
+
+ul {
+  padding-left: 30px;
+}
+#main{
+  width: 100%;
+  position: relative;  
+}
+.out{
+  width: 40%;
+  right: 10px;
+  top: 50px;
+  position: absolute;
+  background-color: red;
+
+}
+.outter{
+  /* display: block;
+  position: fixed;
+  right: 10px;
+  top: 50px; */
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+#charts{
+  width: 100%;
+  height: 100%;
+}
+.outter2{
+  /* display: block;
+  position: fixed;
+  right: 10px;
+  top: 400px; */
+  width: 80%;
+  height: 300px;
+  background-color: white;
+}
+#charts2{
+  width: 100%;
+  height: 100%;
+}
+.measurevalue1{
+  margin-right: 20px;
+  display: inline-block;
+  padding: 2px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+}
+.measurevalue2{
+  margin-right: 20px;
+  display: inline-block;
+  padding: 2px;
+  color: white;
+  background-color: #dd9f0b;
+  border-radius: 5px;
+}
+form{ 
+  width: 300px;
+  position: fixed;
+  right: 41%;
+  top: 70px;
+  background-color: #E7E9F0;
+  border-radius: 5px;
+  /* border: 1px solid green; */
+}
+input{
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  margin-top:10px;
+  height:40px;
+  border:0;
+  background:none;
+  letter-spacing:2px;
+  border-bottom:1px solid #ccc;
+}
+input:focus{
+  outline: none;
+}
+.submit{
+  display: block;
+  height: 50px;
+  color: white;
+  display: block;
+  background-color: green;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.submit:hover{
+  background-color: #50BD0D;
+}
