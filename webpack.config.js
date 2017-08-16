@@ -9,7 +9,18 @@ var config = {
   },
   module: {
     loaders: [
-          { test: /\.js|\.jsx|\.es6$/, exclude: /node_modules/, loader: "babel?presets[]=react,presets[]=es2015"}
+          { test: /\.js|\.jsx|\.es6$/, 
+            exclude: /node_modules/,
+            loader: 'babel',
+            query:
+            {
+                presets:['es2015', 'react','stage-0']
+            }
+          },
+          {
+      test: /\.css$/,
+      loaders: ['style-loader', 'css-loader'],
+    }
         ]
     }
 };
