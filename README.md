@@ -1,3 +1,4 @@
+# react-echarts-spc
 系统用于元器件生产中对过程进行把控及数据的可视化。重构项目的C语言版 ，采用 ReactJS 技术选型来实现数据与界面的实时刷新，解决了 React 架构下百 度 Echarts 的数据动态更新问题。后端采用 Express 框架以及 Mongodb 存储数 据，提高存取效率，且数据采集也做到了标准化。
 ### 开发环境OSX(10.12.2)  Sublime Text(Build 3124)  Chrome(56.0)  NodeJS(v6.2.0)  MongoDB(3.4)### 工具与技术标准Webpack(1.14.0)、  
 NPM(3.8.9)、  NodeJS(6.10.1)  MongoDB(3.4)  Echarts(2.2.7)、### 运行
